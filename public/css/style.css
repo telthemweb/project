@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #DCE0E2;
+}
+
+.navbar{
+	border-bottom: solid 3px #008ed6;
+	opacity: 0.8;	
+}
+.banner{
+	margin-top: -18px;
+	width: 100%;
+	background-color: red;
+	max-height: 600px;
+}
+.banner .banner_inside{
+	margin: auto;
+}
+.banner .banner_inside img{
+	width: 100%;
+}
+
+.pagination-links{
+	margin: 30px 0px;
+}
+a.pagination-links{
+	padding: 8px 13px;
+	margin: 5px;
+	background-color: #111;
+	border: 1px solid #eee;
+	color: #fff;
+}
+.pagination-links strong{
+	padding: 8px 13px;
+	margin: 5px;
+	background-color: #1646FF;
+	border: 1px solid #eee;
+	color: #fff;
+}
+
+@/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width : 660px) {
+	.banner{
+	width: 100%;
+	margin:auto;
+}
+.banner .banner_inside{
+	
+}
+	.banner .banner_inside img{
+	width: 100%;
+}
+}
+
+
+
